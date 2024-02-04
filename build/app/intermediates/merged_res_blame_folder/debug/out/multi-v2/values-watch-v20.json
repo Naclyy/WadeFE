@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-20:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-21:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\19dda675b9a55d2e7e7a1708acff9972\\transformed\\jetified-play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",

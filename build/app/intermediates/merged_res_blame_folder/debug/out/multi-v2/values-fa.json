@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-20:/values-fa/values-fa.xml",
+            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-21:/values-fa/values-fa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\9aacd92044d3c0fced5d96d094537c9f\\transformed\\jetified-play-services-base-18.0.1\\res\\values-fa\\values.xml",
@@ -18,23 +18,6 @@
                         "startOffsets": "2795,2903,3060,3189,3292,3432,3558,3672,3929,4082,4192,4362,4493,4646,4802,4868,4936",
                         "endColumns": "107,156,128,102,139,125,113,101,152,109,169,130,152,155,65,67,84",
                         "endOffsets": "2898,3055,3184,3287,3427,3553,3667,3769,4077,4187,4357,4488,4641,4797,4863,4931,5016"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\448e12895481b74f12aa96a40a56e1d8\\transformed\\core-1.6.0\\res\\values-fa\\values-fa.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "52",
-                        "startColumns": "4",
-                        "startOffsets": "5513",
-                        "endColumns": "100",
-                        "endOffsets": "5609"
                     }
                 },
                 {
@@ -86,6 +69,23 @@
                         "startOffsets": "3774",
                         "endColumns": "154",
                         "endOffsets": "3924"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\a39f0511dd96e367afb26dc218315481\\transformed\\core-1.8.0\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "52",
+                        "startColumns": "4",
+                        "startOffsets": "5513",
+                        "endColumns": "100",
+                        "endOffsets": "5609"
                     }
                 }
             ]

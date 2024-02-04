@@ -5,16 +5,18 @@ INJECTED from E:\Facultate\WadeFE\android\app\src\main\AndroidManifest.xml:1:1-6
 INJECTED from E:\Facultate\WadeFE\android\app\src\main\AndroidManifest.xml:1:1-62:12
 INJECTED from E:\Facultate\WadeFE\android\app\src\main\AndroidManifest.xml:1:1-62:12
 MERGED from E:\Facultate\WadeFE\android\app\src\main\AndroidManifest.xml:1:1-62:12
-MERGED from [:shared_preferences_android] E:\Facultate\WadeFE\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_performance] E:\Facultate\WadeFE\build\firebase_performance\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_core] E:\Facultate\WadeFE\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:sign_in_with_apple] E:\Facultate\WadeFE\build\sign_in_with_apple\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:speech_to_text] E:\Facultate\WadeFE\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:sqflite] E:\Facultate\WadeFE\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:url_launcher_android] E:\Facultate\WadeFE\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
 MERGED from [:path_provider_android] E:\Facultate\WadeFE\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:google_sign_in_android] E:\Facultate\WadeFE\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:flutter_native_splash] E:\Facultate\WadeFE\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] E:\Facultate\WadeFE\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_tts] E:\Facultate\WadeFE\build\flutter_tts\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-perf:20.5.1] C:\Users\Andrei\.gradle\caches\transforms-3\ee413e8be5682be8505dceab6d465fbe\transformed\jetified-firebase-perf-20.5.1\AndroidManifest.xml:3:1-23:12
 MERGED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\Andrei\.gradle\caches\transforms-3\2c383d96b211dbebb19109a0bac6f66d\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:15:1-35:12
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\ad6442612d2a8b7f1a6efe89660fd5a7\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:17:1-75:12
@@ -32,6 +34,7 @@ MERGED from [com.google.firebase:firebase-datatransport:18.1.8] C:\Users\Andrei\
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Andrei\.gradle\caches\transforms-3\4997af64253642bd4703cbe226b019e0\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.firebase:firebase-config-interop:16.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\acdb09b92ae570f27f6ef076d1dee08b\transformed\jetified-firebase-config-interop-16.0.0\AndroidManifest.xml:15:1-20:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] C:\Users\Andrei\.gradle\caches\transforms-3\ebc455ed71d94c34d195c8922698c097\transformed\jetified-firebase-encoders-json-18.0.1\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Andrei\.gradle\caches\transforms-3\00a3f87275d4db22388c295e6b822e74\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Andrei\.gradle\caches\transforms-3\19dda675b9a55d2e7e7a1708acff9972\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Andrei\.gradle\caches\transforms-3\a118b952bad41be76cbca79806f769e7\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Andrei\.gradle\caches\transforms-3\9ab6c02b7e37de64478c18a688e4142e\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
@@ -48,31 +51,31 @@ MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Andrei\.gradle\caches\
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\8463a5f200985a08e36df8f0ae30a2b7\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\749104e98ac5d00aebd1becde75730bc\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\1908d6964d598290659800c6ae91d94f\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Andrei\.gradle\caches\transforms-3\68e4604425ccccc8b72091daeabc9e65\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\528812b340b09e6ca33b4c1d05e3274b\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\783d5ac98159dc6cb43dd09a6a56ee40\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.browser:browser:1.4.0] C:\Users\Andrei\.gradle\caches\transforms-3\68e4604425ccccc8b72091daeabc9e65\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Andrei\.gradle\caches\transforms-3\96f390e56bef51b6faa0a53848d8b517\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\0c3464777dfc5e958e3919869b50d921\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\682bc289c240396e41af821947c1a3d1\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Andrei\.gradle\caches\transforms-3\96f390e56bef51b6faa0a53848d8b517\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\557274b2adabfde3f608192f3929a93e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\dbbd83b1a0d7ec0855f30d1f01a235c9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.6.0] C:\Users\Andrei\.gradle\caches\transforms-3\448e12895481b74f12aa96a40a56e1d8\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.8.0] C:\Users\Andrei\.gradle\caches\transforms-3\a39f0511dd96e367afb26dc218315481\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Andrei\.gradle\caches\transforms-3\151c10412871e2e06e4815735db33ee3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Andrei\.gradle\caches\transforms-3\e2f4d27b513e8bb009412b0811de0a14\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\60b4466c260c1246b6b9b3a53b6cc341\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\Andrei\.gradle\caches\transforms-3\376bbd409604d919d389a6b0cec13aa3\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\e14278e5c325f5cdd541c71819f0f3a4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\5f7c222ba97c982be2d4f3cbeb68100d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\eebe7f9b15de3fbbe7eebdfbb046b9de\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] C:\Users\Andrei\.gradle\caches\transforms-3\07818219c1554545a148b644b39e4e7c\transformed\jetified-lifecycle-process-2.3.1\AndroidManifest.xml:17:1-32:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Andrei\.gradle\caches\transforms-3\06c8f3ef5375cdb1bbb3d0a7ca39affa\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\c09b80dfcc113d0f54a3b41310a7d6d6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\1895797ccbe5dd5bbe4b040f47a21d32\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\5f7c222ba97c982be2d4f3cbeb68100d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\eebe7f9b15de3fbbe7eebdfbb046b9de\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\44f52489b2d01fd464b1e720c279fb04\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\090bd6807feedc5cc6e27fb851052f7f\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\0865f7a786a1bef12e1f237491aa3d50\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\d5b68f2b2b74dc022302f312e278ba97\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\a5fb0cb63275ae27995cc84ef372e230\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\d5b68f2b2b74dc022302f312e278ba97\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 INJECTED from E:\Facultate\WadeFE\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from E:\Facultate\WadeFE\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from E:\Facultate\WadeFE\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -117,10 +120,10 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Us
 		ADDED from E:\Facultate\WadeFE\android\app\src\main\AndroidManifest.xml:4:22-64
 application
 ADDED from E:\Facultate\WadeFE\android\app\src\main\AndroidManifest.xml:7:5-61:19
-MERGED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_performance] E:\Facultate\WadeFE\build\firebase_performance\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-17:19
 MERGED from [:firebase_performance] E:\Facultate\WadeFE\build\firebase_performance\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_core] E:\Facultate\WadeFE\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_core] E:\Facultate\WadeFE\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
 MERGED from [:url_launcher_android] E:\Facultate\WadeFE\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
@@ -165,8 +168,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\a40f96d1441100c21e767db5ef0da301\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Andrei\.gradle\caches\transforms-3\99351861dee3c74d68ece502978737aa\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Andrei\.gradle\caches\transforms-3\99351861dee3c74d68ece502978737aa\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.core:core:1.6.0] C:\Users\Andrei\.gradle\caches\transforms-3\448e12895481b74f12aa96a40a56e1d8\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] C:\Users\Andrei\.gradle\caches\transforms-3\448e12895481b74f12aa96a40a56e1d8\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] C:\Users\Andrei\.gradle\caches\transforms-3\a39f0511dd96e367afb26dc218315481\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] C:\Users\Andrei\.gradle\caches\transforms-3\a39f0511dd96e367afb26dc218315481\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Andrei\.gradle\caches\transforms-3\151c10412871e2e06e4815735db33ee3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Andrei\.gradle\caches\transforms-3\151c10412871e2e06e4815735db33ee3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Andrei\.gradle\caches\transforms-3\e2f4d27b513e8bb009412b0811de0a14\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:25:5-39:19
@@ -176,7 +179,7 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] C:\Users\Andrei\.gradle
 	android:requestLegacyExternalStorage
 		ADDED from E:\Facultate\WadeFE\android\app\src\main\AndroidManifest.xml:11:9-52
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] C:\Users\Andrei\.gradle\caches\transforms-3\448e12895481b74f12aa96a40a56e1d8\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.8.0] C:\Users\Andrei\.gradle\caches\transforms-3\a39f0511dd96e367afb26dc218315481\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from E:\Facultate\WadeFE\android\app\src\main\AndroidManifest.xml:8:9-38
 	android:icon
@@ -259,16 +262,16 @@ uses-sdk
 INJECTED from E:\Facultate\WadeFE\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Facultate\WadeFE\android\app\src\main\AndroidManifest.xml
 INJECTED from E:\Facultate\WadeFE\android\app\src\main\AndroidManifest.xml
-MERGED from [:shared_preferences_android] E:\Facultate\WadeFE\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:shared_preferences_android] E:\Facultate\WadeFE\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_performance] E:\Facultate\WadeFE\build\firebase_performance\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_performance] E:\Facultate\WadeFE\build\firebase_performance\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] E:\Facultate\WadeFE\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] E:\Facultate\WadeFE\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:sign_in_with_apple] E:\Facultate\WadeFE\build\sign_in_with_apple\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:sign_in_with_apple] E:\Facultate\WadeFE\build\sign_in_with_apple\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:speech_to_text] E:\Facultate\WadeFE\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:speech_to_text] E:\Facultate\WadeFE\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:sqflite] E:\Facultate\WadeFE\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:sqflite] E:\Facultate\WadeFE\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:url_launcher_android] E:\Facultate\WadeFE\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
@@ -279,6 +282,10 @@ MERGED from [:google_sign_in_android] E:\Facultate\WadeFE\build\google_sign_in_a
 MERGED from [:google_sign_in_android] E:\Facultate\WadeFE\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_native_splash] E:\Facultate\WadeFE\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_native_splash] E:\Facultate\WadeFE\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] E:\Facultate\WadeFE\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] E:\Facultate\WadeFE\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_tts] E:\Facultate\WadeFE\build\flutter_tts\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_tts] E:\Facultate\WadeFE\build\flutter_tts\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-perf:20.5.1] C:\Users\Andrei\.gradle\caches\transforms-3\ee413e8be5682be8505dceab6d465fbe\transformed\jetified-firebase-perf-20.5.1\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-perf:20.5.1] C:\Users\Andrei\.gradle\caches\transforms-3\ee413e8be5682be8505dceab6d465fbe\transformed\jetified-firebase-perf-20.5.1\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\Andrei\.gradle\caches\transforms-3\2c383d96b211dbebb19109a0bac6f66d\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:18:5-44
@@ -313,6 +320,8 @@ MERGED from [com.google.firebase:firebase-config-interop:16.0.0] C:\Users\Andrei
 MERGED from [com.google.firebase:firebase-config-interop:16.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\acdb09b92ae570f27f6ef076d1dee08b\transformed\jetified-firebase-config-interop-16.0.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] C:\Users\Andrei\.gradle\caches\transforms-3\ebc455ed71d94c34d195c8922698c097\transformed\jetified-firebase-encoders-json-18.0.1\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] C:\Users\Andrei\.gradle\caches\transforms-3\ebc455ed71d94c34d195c8922698c097\transformed\jetified-firebase-encoders-json-18.0.1\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Andrei\.gradle\caches\transforms-3\00a3f87275d4db22388c295e6b822e74\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Andrei\.gradle\caches\transforms-3\00a3f87275d4db22388c295e6b822e74\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Andrei\.gradle\caches\transforms-3\19dda675b9a55d2e7e7a1708acff9972\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Andrei\.gradle\caches\transforms-3\19dda675b9a55d2e7e7a1708acff9972\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Andrei\.gradle\caches\transforms-3\a118b952bad41be76cbca79806f769e7\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
@@ -345,24 +354,24 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Andrei\.gradle\caches\tran
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\749104e98ac5d00aebd1becde75730bc\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\1908d6964d598290659800c6ae91d94f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\1908d6964d598290659800c6ae91d94f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Andrei\.gradle\caches\transforms-3\68e4604425ccccc8b72091daeabc9e65\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Andrei\.gradle\caches\transforms-3\68e4604425ccccc8b72091daeabc9e65\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\528812b340b09e6ca33b4c1d05e3274b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\528812b340b09e6ca33b4c1d05e3274b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\783d5ac98159dc6cb43dd09a6a56ee40\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\783d5ac98159dc6cb43dd09a6a56ee40\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] C:\Users\Andrei\.gradle\caches\transforms-3\68e4604425ccccc8b72091daeabc9e65\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] C:\Users\Andrei\.gradle\caches\transforms-3\68e4604425ccccc8b72091daeabc9e65\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Andrei\.gradle\caches\transforms-3\96f390e56bef51b6faa0a53848d8b517\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Andrei\.gradle\caches\transforms-3\96f390e56bef51b6faa0a53848d8b517\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\0c3464777dfc5e958e3919869b50d921\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\0c3464777dfc5e958e3919869b50d921\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\682bc289c240396e41af821947c1a3d1\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\682bc289c240396e41af821947c1a3d1\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Andrei\.gradle\caches\transforms-3\96f390e56bef51b6faa0a53848d8b517\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Andrei\.gradle\caches\transforms-3\96f390e56bef51b6faa0a53848d8b517\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\557274b2adabfde3f608192f3929a93e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\557274b2adabfde3f608192f3929a93e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\dbbd83b1a0d7ec0855f30d1f01a235c9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\dbbd83b1a0d7ec0855f30d1f01a235c9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] C:\Users\Andrei\.gradle\caches\transforms-3\448e12895481b74f12aa96a40a56e1d8\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] C:\Users\Andrei\.gradle\caches\transforms-3\448e12895481b74f12aa96a40a56e1d8\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\Andrei\.gradle\caches\transforms-3\a39f0511dd96e367afb26dc218315481\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\Andrei\.gradle\caches\transforms-3\a39f0511dd96e367afb26dc218315481\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Andrei\.gradle\caches\transforms-3\151c10412871e2e06e4815735db33ee3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Andrei\.gradle\caches\transforms-3\151c10412871e2e06e4815735db33ee3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Andrei\.gradle\caches\transforms-3\e2f4d27b513e8bb009412b0811de0a14\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:18:5-20:41
@@ -373,10 +382,6 @@ MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\Andrei\.gr
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\Andrei\.gradle\caches\transforms-3\376bbd409604d919d389a6b0cec13aa3\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\e14278e5c325f5cdd541c71819f0f3a4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\e14278e5c325f5cdd541c71819f0f3a4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\5f7c222ba97c982be2d4f3cbeb68100d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\5f7c222ba97c982be2d4f3cbeb68100d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\eebe7f9b15de3fbbe7eebdfbb046b9de\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\eebe7f9b15de3fbbe7eebdfbb046b9de\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] C:\Users\Andrei\.gradle\caches\transforms-3\07818219c1554545a148b644b39e4e7c\transformed\jetified-lifecycle-process-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] C:\Users\Andrei\.gradle\caches\transforms-3\07818219c1554545a148b644b39e4e7c\transformed\jetified-lifecycle-process-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Andrei\.gradle\caches\transforms-3\06c8f3ef5375cdb1bbb3d0a7ca39affa\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
@@ -385,16 +390,20 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Andrei\.gradle
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\c09b80dfcc113d0f54a3b41310a7d6d6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\1895797ccbe5dd5bbe4b040f47a21d32\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\1895797ccbe5dd5bbe4b040f47a21d32\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\5f7c222ba97c982be2d4f3cbeb68100d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\5f7c222ba97c982be2d4f3cbeb68100d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\eebe7f9b15de3fbbe7eebdfbb046b9de\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\eebe7f9b15de3fbbe7eebdfbb046b9de\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\44f52489b2d01fd464b1e720c279fb04\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\44f52489b2d01fd464b1e720c279fb04\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\090bd6807feedc5cc6e27fb851052f7f\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\090bd6807feedc5cc6e27fb851052f7f\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\0865f7a786a1bef12e1f237491aa3d50\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\0865f7a786a1bef12e1f237491aa3d50\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\d5b68f2b2b74dc022302f312e278ba97\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\d5b68f2b2b74dc022302f312e278ba97\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\a5fb0cb63275ae27995cc84ef372e230\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\a5fb0cb63275ae27995cc84ef372e230\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\d5b68f2b2b74dc022302f312e278ba97\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Andrei\.gradle\caches\transforms-3\d5b68f2b2b74dc022302f312e278ba97\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 INJECTED from E:\Facultate\WadeFE\android\app\src\debug\AndroidManifest.xml
 INJECTED from E:\Facultate\WadeFE\android\app\src\debug\AndroidManifest.xml
 	tools:overrideLibrary
@@ -406,9 +415,9 @@ INJECTED from E:\Facultate\WadeFE\android\app\src\debug\AndroidManifest.xml
 		INJECTED from E:\Facultate\WadeFE\android\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Facultate\WadeFE\android\app\src\debug\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_performance] E:\Facultate\WadeFE\build\firebase_performance\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:19
-MERGED from [:firebase_performance] E:\Facultate\WadeFE\build\firebase_performance\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:19
+ADDED from [:firebase_performance] E:\Facultate\WadeFE\build\firebase_performance\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_core] E:\Facultate\WadeFE\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_core] E:\Facultate\WadeFE\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 MERGED from [com.google.firebase:firebase-perf:20.5.1] C:\Users\Andrei\.gradle\caches\transforms-3\ee413e8be5682be8505dceab6d465fbe\transformed\jetified-firebase-perf-20.5.1\AndroidManifest.xml:11:9-20:19
@@ -436,19 +445,19 @@ MERGED from [com.google.firebase:firebase-abt:21.1.1] C:\Users\Andrei\.gradle\ca
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\Andrei\.gradle\caches\transforms-3\c5dc4189ad24574cf37af0c0c4872833\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
-	android:value
-		ADDED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
-	android:name
-		ADDED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+		ADDED from [:firebase_performance] E:\Facultate\WadeFE\build\firebase_performance\intermediates\merged_manifest\debug\AndroidManifest.xml:12:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.performance.FlutterFirebaseAppRegistrar
 ADDED from [:firebase_performance] E:\Facultate\WadeFE\build\firebase_performance\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:85
 	android:value
 		ADDED from [:firebase_performance] E:\Facultate\WadeFE\build\firebase_performance\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-82
 	android:name
 		ADDED from [:firebase_performance] E:\Facultate\WadeFE\build\firebase_performance\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-130
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] E:\Facultate\WadeFE\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
 ADDED from [:firebase_core] E:\Facultate\WadeFE\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 	android:value

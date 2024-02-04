@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-20:/values-zu/values-zu.xml",
+            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-21:/values-zu/values-zu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\9aacd92044d3c0fced5d96d094537c9f\\transformed\\jetified-play-services-base-18.0.1\\res\\values-zu\\values.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\448e12895481b74f12aa96a40a56e1d8\\transformed\\core-1.6.0\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\a39f0511dd96e367afb26dc218315481\\transformed\\core-1.8.0\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

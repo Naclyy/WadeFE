@@ -1,4 +1,4 @@
-#Sun Feb 04 23:32:33 EET 2024
+#Mon Feb 05 00:22:25 EET 2024
 base.0=E\:\\Facultate\\WadeFE\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=E\:\\Facultate\\WadeFE\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.2=E\:\\Facultate\\WadeFE\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

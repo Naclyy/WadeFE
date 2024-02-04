@@ -1,3 +1,5 @@
+import 'package:botaniq_scape/chat_gpt/chat_page.dart';
+
 import '/auth/firebase_auth/auth_util.dart';
 import '/backend/api_requests/api_calls.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
@@ -69,8 +71,8 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(0.0, 60.0, 8.0, 0.0),
+                    padding: const EdgeInsetsDirectional.fromSTEB(
+                        0.0, 60.0, 8.0, 0.0),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(0.0),
                       child: Image.network(
@@ -83,8 +85,8 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                     ),
                   ),
                   Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(12.0, 10.0, 12.0, 8.0),
+                    padding: const EdgeInsetsDirectional.fromSTEB(
+                        12.0, 10.0, 12.0, 8.0),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       children: [
@@ -146,12 +148,13 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                       curve: Curves.easeInOut,
                       width: double.infinity,
                       decoration: BoxDecoration(
-                        color: _model.mouseRegionHovered1? const Color(0xFFF1F4F8)
+                        color: _model.mouseRegionHovered1
+                            ? const Color(0xFFF1F4F8)
                             : Colors.white,
                       ),
                       child: Padding(
-                        padding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 8.0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            0.0, 8.0, 0.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           children: [
@@ -200,12 +203,13 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                       curve: Curves.easeInOut,
                       width: double.infinity,
                       decoration: BoxDecoration(
-                        color: _model.mouseRegionHovered2? const Color(0xFFF1F4F8)
+                        color: _model.mouseRegionHovered2
+                            ? const Color(0xFFF1F4F8)
                             : Colors.white,
                       ),
                       child: Padding(
-                        padding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 8.0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            0.0, 8.0, 0.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           children: [
@@ -240,56 +244,67 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                       ),
                     ),
                   ),
-                  MouseRegion(
-                    opaque: false,
-                    cursor: SystemMouseCursors.click ?? MouseCursor.defer,
-                    onEnter: ((event) async {
-                      setState(() => _model.mouseRegionHovered3 = true);
-                    }),
-                    onExit: ((event) async {
-                      setState(() => _model.mouseRegionHovered3 = false);
-                    }),
-                    child: AnimatedContainer(
-                      duration: const Duration(milliseconds: 150),
-                      curve: Curves.easeInOut,
-                      width: double.infinity,
-                      decoration: BoxDecoration(
-                        color: _model.mouseRegionHovered3? const Color(0xFFF1F4F8)
-                            : Colors.white,
-                      ),
-                      child: Padding(
-                        padding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 8.0),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            const Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  12.0, 0.0, 0.0, 0.0),
-                              child: Icon(
-                                Icons.people,
-                                color: Color(0xFF14181B),
-                                size: 20.0,
-                              ),
-                            ),
-                            Expanded(
-                              child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                  InkWell(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) =>
+                              ChatPage(), // Replace ChatPage with the actual page you want to navigate to
+                        ),
+                      );
+                    },
+                    child: MouseRegion(
+                      opaque: false,
+                      cursor: SystemMouseCursors.click ?? MouseCursor.defer,
+                      onEnter: ((event) async {
+                        setState(() => _model.mouseRegionHovered3 = true);
+                      }),
+                      onExit: ((event) async {
+                        setState(() => _model.mouseRegionHovered3 = false);
+                      }),
+                      child: AnimatedContainer(
+                        duration: const Duration(milliseconds: 150),
+                        curve: Curves.easeInOut,
+                        width: double.infinity,
+                        decoration: BoxDecoration(
+                          color: _model.mouseRegionHovered3
+                              ? const Color(0xFFF1F4F8)
+                              : Colors.white,
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
+                              0.0, 8.0, 0.0, 8.0),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              const Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     12.0, 0.0, 0.0, 0.0),
-                                child: Text(
-                                  'Plant Assistent',
-                                  style: FlutterFlowTheme.of(context)
-                                      .bodyMedium
-                                      .override(
-                                        fontFamily: 'Plus Jakarta Sans',
-                                        color: const Color(0xFF14181B),
-                                        fontSize: 14.0,
-                                        fontWeight: FontWeight.w500,
-                                      ),
+                                child: Icon(
+                                  Icons.people,
+                                  color: Color(0xFF14181B),
+                                  size: 20.0,
                                 ),
                               ),
-                            ),
-                          ],
+                              Expanded(
+                                child: Padding(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      12.0, 0.0, 0.0, 0.0),
+                                  child: Text(
+                                    'Plant Assistent',
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyMedium
+                                        .override(
+                                          fontFamily: 'Plus Jakarta Sans',
+                                          color: const Color(0xFF14181B),
+                                          fontSize: 14.0,
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ),
@@ -320,7 +335,8 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                         curve: Curves.easeInOut,
                         width: double.infinity,
                         decoration: BoxDecoration(
-                          color: _model.mouseRegionHovered4? const Color(0xFFF1F4F8)
+                          color: _model.mouseRegionHovered4
+                              ? const Color(0xFFF1F4F8)
                               : Colors.white,
                         ),
                         child: Padding(
@@ -390,7 +406,8 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 30.0, 0.0, 0.0),
+                padding:
+                    const EdgeInsetsDirectional.fromSTEB(0.0, 30.0, 0.0, 0.0),
                 child: SingleChildScrollView(
                   primary: false,
                   child: Column(
@@ -398,8 +415,8 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Padding(
-                        padding:
-                            const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            30.0, 0.0, 0.0, 0.0),
                         child: FlutterFlowIconButton(
                           borderRadius: 20.0,
                           borderWidth: 1.0,
@@ -449,8 +466,9 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                 ),
                                 Expanded(
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        4.0, 0.0, 0.0, 0.0),
+                                    padding:
+                                        const EdgeInsetsDirectional.fromSTEB(
+                                            4.0, 0.0, 0.0, 0.0),
                                     child: SizedBox(
                                       width: 200.0,
                                       child: TextFormField(
@@ -573,10 +591,12 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                               },
                                               child: Container(
                                                 width: double.infinity,
-                                                decoration: const BoxDecoration(),
+                                                decoration:
+                                                    const BoxDecoration(),
                                                 child: Padding(
-                                                  padding: const EdgeInsetsDirectional
-                                                      .fromSTEB(
+                                                  padding:
+                                                      const EdgeInsetsDirectional
+                                                          .fromSTEB(
                                                           0.0, 0.0, 0.0, 12.0),
                                                   child: Column(
                                                     mainAxisSize:
@@ -589,10 +609,10 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                                         padding:
                                                             const EdgeInsetsDirectional
                                                                 .fromSTEB(
-                                                                    16.0,
-                                                                    8.0,
-                                                                    16.0,
-                                                                    12.0),
+                                                                16.0,
+                                                                8.0,
+                                                                16.0,
+                                                                12.0),
                                                         child: ClipRRect(
                                                           borderRadius:
                                                               BorderRadius
@@ -605,7 +625,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                                                 gardensItem,
                                                                 r'''$.photoUrl''',
                                                               )?.toString(),
-                                                              'http://source.unsplash.com/random/1280x720?beach&9',
+                                                              'https://source.unsplash.com/random/1280x720?beach&9',
                                                             ),
                                                             width:
                                                                 double.infinity,
@@ -617,11 +637,8 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                                       Padding(
                                                         padding:
                                                             const EdgeInsetsDirectional
-                                                                .fromSTEB(
-                                                                    16.0,
-                                                                    0.0,
-                                                                    16.0,
-                                                                    4.0),
+                                                                .fromSTEB(16.0,
+                                                                0.0, 16.0, 4.0),
                                                         child: Row(
                                                           mainAxisSize:
                                                               MainAxisSize.max,
@@ -653,10 +670,10 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                                               padding:
                                                                   const EdgeInsetsDirectional
                                                                       .fromSTEB(
-                                                                          16.0,
-                                                                          0.0,
-                                                                          0.0,
-                                                                          0.0),
+                                                                      16.0,
+                                                                      0.0,
+                                                                      0.0,
+                                                                      0.0),
                                                               child: Text(
                                                                 valueOrDefault<
                                                                     String>(
@@ -684,11 +701,8 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                                       Padding(
                                                         padding:
                                                             const EdgeInsetsDirectional
-                                                                .fromSTEB(
-                                                                    16.0,
-                                                                    0.0,
-                                                                    16.0,
-                                                                    4.0),
+                                                                .fromSTEB(16.0,
+                                                                0.0, 16.0, 4.0),
                                                         child: Row(
                                                           mainAxisSize:
                                                               MainAxisSize.max,
@@ -722,10 +736,10 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                                               padding:
                                                                   const EdgeInsetsDirectional
                                                                       .fromSTEB(
-                                                                          16.0,
-                                                                          4.0,
-                                                                          4.0,
-                                                                          0.0),
+                                                                      16.0,
+                                                                      4.0,
+                                                                      4.0,
+                                                                      0.0),
                                                               child: Text(
                                                                 valueOrDefault<
                                                                     String>(

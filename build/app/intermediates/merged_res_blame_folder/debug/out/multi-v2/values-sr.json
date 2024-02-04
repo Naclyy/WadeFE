@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-20:/values-sr/values-sr.xml",
+            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-21:/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\4986d0fe1c995810bf5b5ec705585409\\transformed\\appcompat-1.2.0\\res\\values-sr\\values-sr.xml",
@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\a39f0511dd96e367afb26dc218315481\\transformed\\core-1.8.0\\res\\values-sr\\values-sr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "52",
+                        "startColumns": "4",
+                        "startOffsets": "5512",
+                        "endColumns": "100",
+                        "endOffsets": "5608"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\9aacd92044d3c0fced5d96d094537c9f\\transformed\\jetified-play-services-base-18.0.1\\res\\values-sr\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -35,23 +52,6 @@
                         "startOffsets": "2833,2939,3095,3221,3331,3485,3612,3724,3956,4105,4212,4372,4499,4648,4790,4858,4923",
                         "endColumns": "105,155,125,109,153,126,111,101,148,106,159,126,148,141,67,64,79",
                         "endOffsets": "2934,3090,3216,3326,3480,3607,3719,3821,4100,4207,4367,4494,4643,4785,4853,4918,4998"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\448e12895481b74f12aa96a40a56e1d8\\transformed\\core-1.6.0\\res\\values-sr\\values-sr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "52",
-                        "startColumns": "4",
-                        "startOffsets": "5512",
-                        "endColumns": "100",
-                        "endOffsets": "5608"
                     }
                 },
                 {

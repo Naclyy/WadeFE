@@ -25,6 +25,8 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+
+
   auto_size_text: 3.0.0
   cached_network_image: 3.2.1
   collection: 1.18.0
@@ -77,6 +79,10 @@ dependencies:
   url_launcher_ios: 6.1.4
   url_launcher_platform_interface: 2.1.2
   xml: 6.3.0
+  speech_to_text: ^6.1.1
+  http: ^0.13.5
+  flutter_tts: ^3.6.3
+  animate_do: ^3.0.2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -118,6 +124,13 @@ flutter:
     - assets/lottie_animations/
     - assets/rive_animations/
     - assets/pdfs/
+    - assets/sounds/
+    
+  fonts:
+  - family: Cera Pro
+    fonts:
+      - asset: assets/fonts/Cera-Pro-Bold.otf
+      - asset: assets/fonts/Cera-Pro-Medium.otf
 
   
   # An image asset can refer to one or more resolution-specific "variants", see

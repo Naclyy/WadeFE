@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-20:/values-ky/values-ky.xml",
+            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-21:/values-ky/values-ky.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\99351861dee3c74d68ece502978737aa\\transformed\\jetified-play-services-basement-18.2.0\\res\\values-ky\\values.xml",
@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\a39f0511dd96e367afb26dc218315481\\transformed\\core-1.8.0\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "52",
+                        "startColumns": "4",
+                        "startOffsets": "5525",
+                        "endColumns": "100",
+                        "endOffsets": "5621"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\68e4604425ccccc8b72091daeabc9e65\\transformed\\browser-1.4.0\\res\\values-ky\\values-ky.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -35,23 +52,6 @@
                         "startOffsets": "5024,5123,5228,5337",
                         "endColumns": "98,104,108,105",
                         "endOffsets": "5118,5223,5332,5438"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\448e12895481b74f12aa96a40a56e1d8\\transformed\\core-1.6.0\\res\\values-ky\\values-ky.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "52",
-                        "startColumns": "4",
-                        "startOffsets": "5525",
-                        "endColumns": "100",
-                        "endOffsets": "5621"
                     }
                 },
                 {

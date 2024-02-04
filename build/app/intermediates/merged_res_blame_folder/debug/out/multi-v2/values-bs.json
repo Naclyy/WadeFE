@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-20:/values-bs/values-bs.xml",
+            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-21:/values-bs/values-bs.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\448e12895481b74f12aa96a40a56e1d8\\transformed\\core-1.6.0\\res\\values-bs\\values-bs.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "52",
-                        "startColumns": "4",
-                        "startOffsets": "5528",
-                        "endColumns": "100",
-                        "endOffsets": "5624"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\68e4604425ccccc8b72091daeabc9e65\\transformed\\browser-1.4.0\\res\\values-bs\\values-bs.xml",
                     "from": {
@@ -35,6 +18,23 @@
                         "startOffsets": "5023,5127,5227,5341",
                         "endColumns": "103,99,113,99",
                         "endOffsets": "5122,5222,5336,5436"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\a39f0511dd96e367afb26dc218315481\\transformed\\core-1.8.0\\res\\values-bs\\values-bs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "52",
+                        "startColumns": "4",
+                        "startOffsets": "5528",
+                        "endColumns": "100",
+                        "endOffsets": "5624"
                     }
                 },
                 {

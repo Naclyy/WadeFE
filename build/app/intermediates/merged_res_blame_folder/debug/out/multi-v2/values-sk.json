@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-20:/values-sk/values-sk.xml",
+            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-21:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\4986d0fe1c995810bf5b5ec705585409\\transformed\\appcompat-1.2.0\\res\\values-sk\\values-sk.xml",
@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\a39f0511dd96e367afb26dc218315481\\transformed\\core-1.8.0\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "52",
+                        "startColumns": "4",
+                        "startOffsets": "5594",
+                        "endColumns": "100",
+                        "endOffsets": "5690"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\9aacd92044d3c0fced5d96d094537c9f\\transformed\\jetified-play-services-base-18.0.1\\res\\values-sk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -52,23 +69,6 @@
                         "startOffsets": "2817,2923,3083,3207,3317,3473,3601,3714,3955,4124,4235,4405,4535,4698,4862,4930,4997",
                         "endColumns": "105,159,123,109,155,127,112,101,168,110,169,129,162,163,67,66,86",
                         "endOffsets": "2918,3078,3202,3312,3468,3596,3709,3811,4119,4230,4400,4530,4693,4857,4925,4992,5079"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\448e12895481b74f12aa96a40a56e1d8\\transformed\\core-1.6.0\\res\\values-sk\\values-sk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "52",
-                        "startColumns": "4",
-                        "startOffsets": "5594",
-                        "endColumns": "100",
-                        "endOffsets": "5690"
                     }
                 },
                 {

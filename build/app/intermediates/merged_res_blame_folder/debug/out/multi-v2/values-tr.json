@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-20:/values-tr/values-tr.xml",
+            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-21:/values-tr/values-tr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\9aacd92044d3c0fced5d96d094537c9f\\transformed\\jetified-play-services-base-18.0.1\\res\\values-tr\\values.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "2797,2907,3062,3198,3303,3450,3580,3707,3960,4132,4239,4396,4530,4675,4842,4904,4968",
                         "endColumns": "109,154,135,104,146,129,126,105,171,106,156,133,144,166,61,63,79",
                         "endOffsets": "2902,3057,3193,3298,3445,3575,3702,3808,4127,4234,4391,4525,4670,4837,4899,4963,5043"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\a39f0511dd96e367afb26dc218315481\\transformed\\core-1.8.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "52",
+                        "startColumns": "4",
+                        "startOffsets": "5547",
+                        "endColumns": "100",
+                        "endOffsets": "5643"
                     }
                 },
                 {
@@ -52,23 +69,6 @@
                         "startOffsets": "3813",
                         "endColumns": "146",
                         "endOffsets": "3955"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\448e12895481b74f12aa96a40a56e1d8\\transformed\\core-1.6.0\\res\\values-tr\\values-tr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "52",
-                        "startColumns": "4",
-                        "startOffsets": "5547",
-                        "endColumns": "100",
-                        "endOffsets": "5643"
                     }
                 },
                 {

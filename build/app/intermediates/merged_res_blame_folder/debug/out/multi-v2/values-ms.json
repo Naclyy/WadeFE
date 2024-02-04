@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-20:/values-ms/values-ms.xml",
+            "outputFile": "fii.wade.botaniq.app-mergeDebugResources-21:/values-ms/values-ms.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\99351861dee3c74d68ece502978737aa\\transformed\\jetified-play-services-basement-18.2.0\\res\\values-ms\\values.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "3846",
                         "endColumns": "145",
                         "endOffsets": "3987"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\a39f0511dd96e367afb26dc218315481\\transformed\\core-1.8.0\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "52",
+                        "startColumns": "4",
+                        "startOffsets": "5663",
+                        "endColumns": "100",
+                        "endOffsets": "5759"
                     }
                 },
                 {
@@ -52,23 +69,6 @@
                         "startOffsets": "2800,2906,3079,3209,3315,3487,3619,3739,3992,4177,4286,4461,4596,4767,4942,5009,5073",
                         "endColumns": "105,172,129,105,171,131,119,106,184,108,174,134,170,174,66,63,82",
                         "endOffsets": "2901,3074,3204,3310,3482,3614,3734,3841,4172,4281,4456,4591,4762,4937,5004,5068,5151"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Andrei\\.gradle\\caches\\transforms-3\\448e12895481b74f12aa96a40a56e1d8\\transformed\\core-1.6.0\\res\\values-ms\\values-ms.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "52",
-                        "startColumns": "4",
-                        "startOffsets": "5663",
-                        "endColumns": "100",
-                        "endOffsets": "5759"
                     }
                 },
                 {
