@@ -13,7 +13,7 @@ class GetGardenByIdCall {
   }) async {
     return ApiManager.instance.makeApiCall(
       callName: 'getGardenById',
-      apiUrl: 'botaniqscape.eu-central-1.elasticbeanstalk.com/gardens/$id',
+      apiUrl: 'http://botaniqscape.eu-central-1.elasticbeanstalk.com/gardens/$id',
       callType: ApiCallType.GET,
       headers: {},
       params: {},
@@ -137,9 +137,11 @@ class GetAllGardensSimplifiedCall {
   static Future<ApiCallResponse> call() async {
     return ApiManager.instance.makeApiCall(
       callName: 'getAllGardensSimplified',
-      apiUrl: 'botaniqscape.eu-central-1.elasticbeanstalk.com/gardens',
+      apiUrl: 'http://botaniqscape.eu-central-1.elasticbeanstalk.com/gardens',
       callType: ApiCallType.GET,
-      headers: {},
+      headers: {'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+      "Access-Control-Allow-Credentials": true,},
       params: {},
       returnBody: true,
       encodeBodyUtf8: false,
@@ -213,9 +215,11 @@ class GetExhibitionByNameAndGardenIdCall {
     return ApiManager.instance.makeApiCall(
       callName: 'getExhibitionByNameAndGardenId',
       apiUrl:
-          'botaniqscape.eu-central-1.elasticbeanstalk.com/gardens/$gardenId/exhibitions/$exhibitionName',
+          'http://botaniqscape.eu-central-1.elasticbeanstalk.com/gardens/$gardenId/exhibitions/$exhibitionName',
       callType: ApiCallType.GET,
-      headers: {},
+      headers: {'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+      "Access-Control-Allow-Credentials": true,},
       params: {},
       returnBody: true,
       encodeBodyUtf8: false,
@@ -234,9 +238,11 @@ class GetSparqlCall {
     return ApiManager.instance.makeApiCall(
       callName: 'getSparql',
       apiUrl:
-          'botaniqscape.eu-central-1.elasticbeanstalk.com/sparql/$endpoint/$term',
+          'http://botaniqscape.eu-central-1.elasticbeanstalk.com/sparql/$endpoint/$term',
       callType: ApiCallType.GET,
-      headers: {},
+      headers: {'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+      "Access-Control-Allow-Credentials": true,},
       params: {},
       returnBody: true,
       encodeBodyUtf8: false,

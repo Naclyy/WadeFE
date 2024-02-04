@@ -16,7 +16,7 @@ class GardenWidget extends StatefulWidget {
     String? gardenPhotoUrl,
   })  : gardenId = gardenId ?? 'Gradina Botanica Iasi',
         gardenPhotoUrl = gardenPhotoUrl ??
-            'https://www.chicagobotanic.org/sites/default/files/styles/hero/public/2022/03/02/garden_ariel_banner.jpg?itok=VwkZdIJM';
+            'http://www.chicagobotanic.org/sites/default/files/styles/hero/public/2022/03/02/garden_ariel_banner.jpg?itok=VwkZdIJM';
 
   final String gardenId;
   final String gardenPhotoUrl;

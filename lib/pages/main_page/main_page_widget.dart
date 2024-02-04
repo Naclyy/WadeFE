@@ -564,7 +564,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                                           gardensItem,
                                                           r'''$.photoUrl''',
                                                         )?.toString(),
-                                                        'https://www.chicagobotanic.org/sites/default/files/styles/hero/public/2022/03/02/garden_ariel_banner.jpg?itok=VwkZdIJM',
+                                                        'http://www.chicagobotanic.org/sites/default/files/styles/hero/public/2022/03/02/garden_ariel_banner.jpg?itok=VwkZdIJM',
                                                       ),
                                                       ParamType.String,
                                                     ),
@@ -605,7 +605,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                                                 gardensItem,
                                                                 r'''$.photoUrl''',
                                                               )?.toString(),
-                                                              'https://source.unsplash.com/random/1280x720?beach&9',
+                                                              'http://source.unsplash.com/random/1280x720?beach&9',
                                                             ),
                                                             width:
                                                                 double.infinity,
