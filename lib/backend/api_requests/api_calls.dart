@@ -9,7 +9,7 @@ const _kPrivateApiFunctionName = 'ffPrivateApiCall';
 
 class GetGardenByIdCall {
   static Future<ApiCallResponse> call({
-    String? id = 'garden1',
+    String? id = 'Gradina Botanica Iasi',
   }) async {
     return ApiManager.instance.makeApiCall(
       callName: 'getGardenById',

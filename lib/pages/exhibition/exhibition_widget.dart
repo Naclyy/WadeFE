@@ -3,7 +3,6 @@ import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -15,10 +14,12 @@ class ExhibitionWidget extends StatefulWidget {
     super.key,
     required this.gardenId,
     required this.exhibitionName,
+    this.gardenPhotoUrl,
   });
 
   final String? gardenId;
   final String? exhibitionName;
+  final String? gardenPhotoUrl;
 
   @override
   State<ExhibitionWidget> createState() => _ExhibitionWidgetState();
@@ -206,7 +207,19 @@ class _ExhibitionWidgetState extends State<ExhibitionWidget>
                                           size: 40.0,
                                         ),
                                         onPressed: () async {
-                                          context.pushNamed('Garden');
+                                          context.pushNamed(
+                                            'Garden',
+                                            queryParameters: {
+                                              'gardenId': serializeParam(
+                                                widget.gardenId,
+                                                ParamType.String,
+                                              ),
+                                              'gardenPhotoUrl': serializeParam(
+                                                widget.gardenPhotoUrl,
+                                                ParamType.String,
+                                              ),
+                                            }.withoutNulls,
+                                          );
                                         },
                                       ),
                                     ),
@@ -359,74 +372,6 @@ class _ExhibitionWidgetState extends State<ExhibitionWidget>
                                                           animationsMap[
                                                               'textOnPageLoadAnimation2']!),
                                                     ),
-                                                    Align(
-                                                      alignment:
-                                                          const AlignmentDirectional(
-                                                              0.0, 0.0),
-                                                      child: Padding(
-                                                        padding:
-                                                            const EdgeInsetsDirectional
-                                                                .fromSTEB(
-                                                                    0.0,
-                                                                    20.0,
-                                                                    0.0,
-                                                                    20.0),
-                                                        child: FFButtonWidget(
-                                                          onPressed: () {
-                                                            print(
-                                                                'Button pressed ...');
-                                                          },
-                                                          text: 'Learn more',
-                                                          options:
-                                                              FFButtonOptions(
-                                                            width: MediaQuery
-                                                                        .sizeOf(
-                                                                            context)
-                                                                    .width *
-                                                                0.9,
-                                                            height: 40.0,
-                                                            padding:
-                                                                const EdgeInsetsDirectional
-                                                                    .fromSTEB(
-                                                                        24.0,
-                                                                        0.0,
-                                                                        24.0,
-                                                                        0.0),
-                                                            iconPadding:
-                                                                const EdgeInsetsDirectional
-                                                                    .fromSTEB(
-                                                                        0.0,
-                                                                        0.0,
-                                                                        0.0,
-                                                                        0.0),
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .primary,
-                                                            textStyle:
-                                                                FlutterFlowTheme.of(
-                                                                        context)
-                                                                    .titleSmall
-                                                                    .override(
-                                                                      fontFamily:
-                                                                          'Readex Pro',
-                                                                      color: Colors
-                                                                          .white,
-                                                                    ),
-                                                            elevation: 3.0,
-                                                            borderSide:
-                                                                const BorderSide(
-                                                              color: Colors
-                                                                  .transparent,
-                                                              width: 1.0,
-                                                            ),
-                                                            borderRadius:
-                                                                BorderRadius
-                                                                    .circular(
-                                                                        8.0),
-                                                          ),
-                                                        ),
-                                                      ),
-                                                    ),
                                                     Padding(
                                                       padding:
                                                           const EdgeInsetsDirectional
@@ -575,7 +520,10 @@ class _ExhibitionWidgetState extends State<ExhibitionWidget>
                                                                               BorderRadius.circular(4.0),
                                                                           child:
                                                                               Image.network(
-                                                                            'https://img.freepik.com/free-photo/beautiful-roses-arrangement_23-2150737321.jpg',
+                                                                            getJsonField(
+                                                                              plantListItem,
+                                                                              r'''$.photoUrl''',
+                                                                            ).toString(),
                                                                             width:
                                                                                 double.infinity,
                                                                             height:

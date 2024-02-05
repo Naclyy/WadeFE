@@ -105,54 +105,58 @@ class _PlantWidgetState extends State<PlantWidget>
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            Row(
+            Align(
+              alignment: const AlignmentDirectional(-1.0, 0.0),
+              child: Padding(
+                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 60.0, 0.0, 0.0),
+                child: FlutterFlowIconButton(
+                  borderColor: Colors.transparent,
+                  borderRadius: 20.0,
+                  borderWidth: 0.0,
+                  buttonSize: 60.0,
+                  icon: Icon(
+                    Icons.arrow_back,
+                    color: FlutterFlowTheme.of(context).success,
+                    size: 40.0,
+                  ),
+                  onPressed: () async {
+                    context.pushNamed(
+                      'Exhibition',
+                      queryParameters: {
+                        'gardenId': serializeParam(
+                          widget.gardenId,
+                          ParamType.String,
+                        ),
+                        'exhibitionName': serializeParam(
+                          widget.exhibitionName,
+                          ParamType.String,
+                        ),
+                      }.withoutNulls,
+                    );
+                  },
+                ),
+              ),
+            ),
+            Align(
+              alignment: const AlignmentDirectional(0.0, 0.0),
+              child: Padding(
+                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
+                child: Text(
+                  valueOrDefault<String>(
+                    getJsonField(
+                      widget.plantData,
+                      r'''$.name''',
+                    )?.toString(),
+                    'Roses LoveBla',
+                  ),
+                  textAlign: TextAlign.start,
+                  style: FlutterFlowTheme.of(context).displaySmall,
+                ),
+              ),
+            ),
+            const Row(
               mainAxisSize: MainAxisSize.max,
-              children: [
-                Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 0.0, 0.0),
-                  child: FlutterFlowIconButton(
-                    borderColor: Colors.transparent,
-                    borderRadius: 20.0,
-                    borderWidth: 0.0,
-                    buttonSize: 60.0,
-                    icon: Icon(
-                      Icons.arrow_back,
-                      color: FlutterFlowTheme.of(context).success,
-                      size: 40.0,
-                    ),
-                    onPressed: () async {
-                      context.pushNamed(
-                        'Exhibition',
-                        queryParameters: {
-                          'gardenId': serializeParam(
-                            widget.gardenId,
-                            ParamType.String,
-                          ),
-                          'exhibitionName': serializeParam(
-                            widget.exhibitionName,
-                            ParamType.String,
-                          ),
-                        }.withoutNulls,
-                      );
-                    },
-                  ),
-                ),
-                Padding(
-                  padding:
-                      const EdgeInsetsDirectional.fromSTEB(16.0, 60.0, 16.0, 10.0),
-                  child: Text(
-                    valueOrDefault<String>(
-                      getJsonField(
-                        widget.plantData,
-                        r'''$.name''',
-                      )?.toString(),
-                      'Roses LoveBla',
-                    ),
-                    textAlign: TextAlign.start,
-                    style: FlutterFlowTheme.of(context).displaySmall,
-                  ),
-                ),
-              ],
+              children: [],
             ),
             Padding(
               padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),

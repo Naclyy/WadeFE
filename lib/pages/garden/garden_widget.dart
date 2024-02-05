@@ -700,14 +700,8 @@ class _GardenWidgetState extends State<GardenWidget>
                                                                           {
                                                                         'gardenId':
                                                                             serializeParam(
-                                                                          valueOrDefault<
-                                                                              String>(
-                                                                            getJsonField(
-                                                                              columnGetGardenByIdResponse.jsonBody,
-                                                                              r'''$.gardenId''',
-                                                                            )?.toString(),
-                                                                            'Gradina Botanica Iasi',
-                                                                          ),
+                                                                          widget
+                                                                              .gardenId,
                                                                           ParamType
                                                                               .String,
                                                                         ),
@@ -721,6 +715,13 @@ class _GardenWidgetState extends State<GardenWidget>
                                                                             )?.toString(),
                                                                             'exhibitionName',
                                                                           ),
+                                                                          ParamType
+                                                                              .String,
+                                                                        ),
+                                                                        'gardenPhotoUrl':
+                                                                            serializeParam(
+                                                                          widget
+                                                                              .gardenPhotoUrl,
                                                                           ParamType
                                                                               .String,
                                                                         ),

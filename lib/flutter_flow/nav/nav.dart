@@ -117,7 +117,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ExhibitionWidget(
             gardenId: params.getParam('gardenId', ParamType.String),
             exhibitionName: params.getParam('exhibitionName', ParamType.String),
+            gardenPhotoUrl: params.getParam('gardenPhotoUrl', ParamType.String),
           ),
+        ),
+        FFRoute(
+          name: 'SPARQL',
+          path: '/sparql',
+          builder: (context, params) => const SparqlWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
