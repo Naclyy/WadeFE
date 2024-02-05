@@ -25,9 +25,11 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+
+
   auto_size_text: 3.0.0
   cached_network_image: 3.2.1
-  collection: 1.17.2
+  collection: 1.18.0
   equatable: 2.0.5
   firebase_auth: 4.15.2
   firebase_auth_platform_interface: 7.0.8
@@ -77,6 +79,10 @@ dependencies:
   url_launcher_ios: 6.1.4
   url_launcher_platform_interface: 2.1.2
   xml: 6.3.0
+  speech_to_text: ^6.1.1
+  http: ^0.13.5
+  flutter_tts: ^3.6.3
+  animate_do: ^3.0.2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -88,10 +94,6 @@ dev_dependencies:
   flutter_lints: 3.0.0
   image: 4.0.17
   lints: 3.0.0
-
-  flutter_test:
-    sdk: flutter
-
 
 flutter_launcher_icons:
   android: true
@@ -122,6 +124,13 @@ flutter:
     - assets/lottie_animations/
     - assets/rive_animations/
     - assets/pdfs/
+    - assets/sounds/
+    
+  fonts:
+  - family: Cera Pro
+    fonts:
+      - asset: assets/fonts/Cera-Pro-Bold.otf
+      - asset: assets/fonts/Cera-Pro-Medium.otf
 
   
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -149,4 +158,3 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-
